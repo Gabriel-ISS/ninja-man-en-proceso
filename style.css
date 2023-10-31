@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#ninja-man {
+  background-image: url('/imgs/ninja.gif');
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+span {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+}
+
+
+.wall {
+  background-color: brown;
+}
+
+.blank {
+  background-color: black;
+}
+
+.sushi {
+  background-image: url('imgs/sushi.png');
+  background-size: cover
+}
